@@ -1,5 +1,3 @@
-package Devices;
-
 interface MeasurableEnergy {
     public double watts();
     

@@ -1,0 +1,3 @@
+Energy Report (daily estimates)
+================================
+WashingMachine -> 0.02 kWh/day

@@ -1,5 +1,3 @@
-package Devices;
-
 public class NetworkException extends Exception {
 
     public NetworkException() {

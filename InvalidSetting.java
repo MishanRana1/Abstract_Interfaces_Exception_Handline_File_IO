@@ -1,5 +1,3 @@
-package Devices;
-
 public class InvalidSetting extends RuntimeException {
     
     public InvalidSetting(){

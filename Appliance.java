@@ -1,4 +1,3 @@
-package Devices;
 import java.awt.Color;
 
 abstract class Appliance implements Powerable, MeasurableEnergy {

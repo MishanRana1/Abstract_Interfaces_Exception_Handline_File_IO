@@ -1,4 +1,4 @@
-package Devices;
+import java.awt.Color;
 
 public class WashingMachine extends Appliance{
 
@@ -16,12 +16,9 @@ public class WashingMachine extends Appliance{
     }
 
     @Override
-    public void runCycle() throws PowerException{
-        if (!on){
-            throw new PowerException("WashingMachine is OFF.");
-        } else {
-            System.out.println("WashingMachine is ON.");
-        }
+    public void runCycle() throws PowerException {
+        if (!on) throw new PowerException("WashingMachine is OFF");
+        System.out.println(model + " spinning at " + rpm + " rpm");
     }
 
     @Override

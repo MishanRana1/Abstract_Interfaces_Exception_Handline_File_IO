@@ -1,5 +1,3 @@
-package Devices;
-
 public interface Powerable {
     public void powerOn() throws PowerException;   // (A) checked exception type
     public void powerOff();
